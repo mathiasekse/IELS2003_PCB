@@ -1362,6 +1362,780 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Ekse:NPM1300-QEAA-R7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 40.64 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NPM1300-QEAA-R7"
+				(at 40.64 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "QFN32_5X5_NOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NPM1300-QEAA-R7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPM1300-QEAA-R7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN32_5X5_NOR QFN32_5X5_NOR-M QFN32_5X5_NOR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPM1300-QEAA-R7_1_1"
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 7.62 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -38.1) (xy 73.66 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 73.66 7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 73.66 -38.1) (xy 73.66 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "LSIN1/VINLDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "LSIN2/VINLDO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "SHPHLD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "NTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 81.28 2.54 180)
+					(length 7.62)
+					(name "LSOUT1/VOUTLDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 81.28 0 180)
+					(length 7.62)
+					(name "LSOUT2/VOUTLDO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -2.54 180)
+					(length 7.62)
+					(name "VBUSOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 81.28 -5.08 180)
+					(length 7.62)
+					(name "VOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 81.28 -7.62 180)
+					(length 7.62)
+					(name "VOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -12.7 180)
+					(length 7.62)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -15.24 180)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -20.32 180)
+					(length 7.62)
+					(name "LED0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -22.86 180)
+					(length 7.62)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -25.4 180)
+					(length 7.62)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -30.48 180)
+					(length 7.62)
+					(name "VSET1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 81.28 -33.02 180)
+					(length 7.62)
+					(name "VSET2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NPM1300-QEAA-R7_2_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -40.64)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -40.64) (xy 33.02 -40.64)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -40.64) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "PVSS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "PVSS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Ekse:nRF54L15"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2735,7 +3509,7 @@
 	)
 	(rectangle
 		(start 12.065 12.065)
-		(end 148.59 100.33)
+		(end 137.16 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -4023,6 +4797,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Ekse:NPM1300-QEAA-R7")
+		(at 226.06 34.29 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c42df8-653b-4312-8827-2bdd281a0369")
+		(property "Reference" "U3"
+			(at 233.426 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPM1300-QEAA-R7"
+			(at 233.426 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Ekse:QFN32_5X5_NOR"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NPM1300-QEAA-R7"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "c616b274-bb80-43b4-ae2d-07492ec18538")
+		)
+		(pin "10"
+			(uuid "0ab5b36d-d5ca-4936-96b2-bc889f783521")
+		)
+		(pin "11"
+			(uuid "e31b85b8-477f-4601-888c-8ad839ecb1c3")
+		)
+		(pin "18"
+			(uuid "3630d8e1-d9a4-480d-90d2-d4be309f1821")
+		)
+		(pin "8"
+			(uuid "43f5139d-0952-4d59-bb9c-a8228998a99e")
+		)
+		(pin "9"
+			(uuid "da7b2bd4-6f58-446a-9919-c5b68491b266")
+		)
+		(pin "29"
+			(uuid "242feeb2-e3c0-429e-bf6a-11eb2df6f4d8")
+		)
+		(pin "7"
+			(uuid "f919a9bd-d00c-41aa-bc70-c4c1feaa7ba5")
+		)
+		(pin "15"
+			(uuid "91ca0f7d-9f94-4c69-9dde-f930802b65bf")
+		)
+		(pin "31"
+			(uuid "5ba8ccca-e19c-4ed6-a148-59b87b9ffeee")
+		)
+		(pin "22"
+			(uuid "90ef983d-e3b2-4efa-9c5a-9b30d793228f")
+		)
+		(pin "1"
+			(uuid "3a9e1ead-0110-4b54-aa3e-e370603a1e45")
+		)
+		(pin "32"
+			(uuid "cb4d17a3-f60a-4ea6-94e8-f37a3b6c902f")
+		)
+		(pin "23"
+			(uuid "c4eb5f47-a534-4224-a695-dbe455673751")
+		)
+		(pin "24"
+			(uuid "085dff9d-7aee-4d56-9d2b-b4d190b7b115")
+		)
+		(pin "25"
+			(uuid "53be3e82-5a3b-4f90-8752-f6a8504695a9")
+		)
+		(pin "26"
+			(uuid "7abf2494-4170-4e39-b169-b3ad3a2fc370")
+		)
+		(pin "27"
+			(uuid "add8702a-c05a-4f2f-bd67-0e6df5201d90")
+		)
+		(pin "17"
+			(uuid "48e9a824-bd5a-4f06-a3c4-8d244944200b")
+		)
+		(pin "16"
+			(uuid "04877aa9-9fa9-4532-be54-c55838b087a2")
+		)
+		(pin "4"
+			(uuid "be602016-47c0-404f-ad68-9b35048e62e5")
+		)
+		(pin "3"
+			(uuid "777dd8a4-2491-468e-b530-f703b38ebd20")
+		)
+		(pin "5"
+			(uuid "46ad3893-2865-4ec2-8082-5527ee9c4e13")
+		)
+		(pin "19"
+			(uuid "97c335eb-7a99-4e91-838d-44616ca33db6")
+		)
+		(pin "21"
+			(uuid "ccf72025-0944-4a46-9503-93d696f44f96")
+		)
+		(pin "12"
+			(uuid "08196602-05cf-41a4-87f4-92ac38ec9a18")
+		)
+		(pin "20"
+			(uuid "4188fbe6-1fa7-4eff-a380-82c6fcff8ce1")
+		)
+		(pin "33"
+			(uuid "b3376d7a-b626-4e35-9f82-a26b9dfe29b5")
+		)
+		(pin "2"
+			(uuid "5ced23f8-3fcd-436b-935a-1f2e1cde4142")
+		)
+		(pin "6"
+			(uuid "dff06825-30b1-44a8-8fa7-812a6f181ef3")
+		)
+		(pin "30"
+			(uuid "c492aa19-18d8-4ea8-bbb5-2fb2571d272c")
+		)
+		(pin "14"
+			(uuid "9eee86de-1f75-485d-a982-553c94b37613")
+		)
+		(pin "28"
+			(uuid "dfc69535-6893-41e1-9d2f-9bb3d08d4cd1")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 104.14 91.44 0)
 		(unit 1)
@@ -4931,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ekse:QFN48_6X6_NOR"
 			(at 55.88 162.56 0)
 			(effects
 				(font
@@ -5210,7 +6148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ekse:QFN48_6X6_NOR"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -5865,6 +6803,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Ekse:NPM1300-QEAA-R7")
+		(at 139.7 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82435844-0289-46d0-a101-eae93e3d23ab")
+		(property "Reference" "U3"
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NPM1300-QEAA-R7"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Ekse:QFN32_5X5_NOR"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NPM1300-QEAA-R7"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "c616b274-bb80-43b4-ae2d-07492ec18538")
+		)
+		(pin "10"
+			(uuid "0ab5b36d-d5ca-4936-96b2-bc889f783521")
+		)
+		(pin "11"
+			(uuid "e31b85b8-477f-4601-888c-8ad839ecb1c3")
+		)
+		(pin "18"
+			(uuid "3630d8e1-d9a4-480d-90d2-d4be309f1821")
+		)
+		(pin "8"
+			(uuid "43f5139d-0952-4d59-bb9c-a8228998a99e")
+		)
+		(pin "9"
+			(uuid "da7b2bd4-6f58-446a-9919-c5b68491b266")
+		)
+		(pin "29"
+			(uuid "242feeb2-e3c0-429e-bf6a-11eb2df6f4d8")
+		)
+		(pin "7"
+			(uuid "f919a9bd-d00c-41aa-bc70-c4c1feaa7ba5")
+		)
+		(pin "15"
+			(uuid "91ca0f7d-9f94-4c69-9dde-f930802b65bf")
+		)
+		(pin "31"
+			(uuid "5ba8ccca-e19c-4ed6-a148-59b87b9ffeee")
+		)
+		(pin "22"
+			(uuid "90ef983d-e3b2-4efa-9c5a-9b30d793228f")
+		)
+		(pin "1"
+			(uuid "3a9e1ead-0110-4b54-aa3e-e370603a1e45")
+		)
+		(pin "32"
+			(uuid "cb4d17a3-f60a-4ea6-94e8-f37a3b6c902f")
+		)
+		(pin "23"
+			(uuid "c4eb5f47-a534-4224-a695-dbe455673751")
+		)
+		(pin "24"
+			(uuid "085dff9d-7aee-4d56-9d2b-b4d190b7b115")
+		)
+		(pin "25"
+			(uuid "53be3e82-5a3b-4f90-8752-f6a8504695a9")
+		)
+		(pin "26"
+			(uuid "7abf2494-4170-4e39-b169-b3ad3a2fc370")
+		)
+		(pin "27"
+			(uuid "add8702a-c05a-4f2f-bd67-0e6df5201d90")
+		)
+		(pin "17"
+			(uuid "48e9a824-bd5a-4f06-a3c4-8d244944200b")
+		)
+		(pin "16"
+			(uuid "04877aa9-9fa9-4532-be54-c55838b087a2")
+		)
+		(pin "4"
+			(uuid "be602016-47c0-404f-ad68-9b35048e62e5")
+		)
+		(pin "3"
+			(uuid "777dd8a4-2491-468e-b530-f703b38ebd20")
+		)
+		(pin "5"
+			(uuid "46ad3893-2865-4ec2-8082-5527ee9c4e13")
+		)
+		(pin "19"
+			(uuid "97c335eb-7a99-4e91-838d-44616ca33db6")
+		)
+		(pin "21"
+			(uuid "ccf72025-0944-4a46-9503-93d696f44f96")
+		)
+		(pin "12"
+			(uuid "08196602-05cf-41a4-87f4-92ac38ec9a18")
+		)
+		(pin "20"
+			(uuid "4188fbe6-1fa7-4eff-a380-82c6fcff8ce1")
+		)
+		(pin "33"
+			(uuid "b3376d7a-b626-4e35-9f82-a26b9dfe29b5")
+		)
+		(pin "2"
+			(uuid "5ced23f8-3fcd-436b-935a-1f2e1cde4142")
+		)
+		(pin "6"
+			(uuid "dff06825-30b1-44a8-8fa7-812a6f181ef3")
+		)
+		(pin "30"
+			(uuid "c492aa19-18d8-4ea8-bbb5-2fb2571d272c")
+		)
+		(pin "14"
+			(uuid "9eee86de-1f75-485d-a982-553c94b37613")
+		)
+		(pin "28"
+			(uuid "dfc69535-6893-41e1-9d2f-9bb3d08d4cd1")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Ekse:MAX98357A")
 		(at 92.71 149.86 0)
 		(unit 1)
@@ -6463,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ekse:QFN48_6X6_NOR"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -6715,7 +7816,7 @@
 	)
 	(symbol
 		(lib_id "Ekse:nRF54L15")
-		(at 201.93 45.72 0)
+		(at 250.19 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6723,7 +7824,7 @@
 		(dnp no)
 		(uuid "f16f08c2-892d-4ae4-b2db-a18346b7f58f")
 		(property "Reference" "U1"
-			(at 201.93 26.924 0)
+			(at 250.19 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +7833,7 @@
 			)
 		)
 		(property "Value" "nRF54L15"
-			(at 201.93 29.464 0)
+			(at 250.19 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,8 +7841,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 45.72 0)
+		(property "Footprint" "Ekse:QFN48_6X6_NOR"
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +7851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 45.72 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +7860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 45.72 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
