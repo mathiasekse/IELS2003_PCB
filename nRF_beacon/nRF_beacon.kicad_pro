@@ -425,6 +425,18 @@
     [
       "1290e5f5-b91f-4d6e-b440-6b78e8fdc212",
       "Root"
+    ],
+    [
+      "eb04787d-40f4-45c6-8e79-38c58cd136de",
+      "MCU"
+    ],
+    [
+      "1b7d8d32-f2af-4099-9901-f3134d87cd68",
+      "POWER"
+    ],
+    [
+      "437e71df-bd9b-467f-b101-39f98a623051",
+      "AUDIO"
     ]
   ],
   "text_variables": {}
