@@ -1130,7 +1130,7 @@
 	)
 	(text "Mode: (Left/2 + Right/2)"
 		(exclude_from_sim no)
-		(at 127.762 151.384 0)
+		(at 120.142 149.098 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1144,6 +1144,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0122596d-0a16-4e12-a25f-36311ec80f90")
+	)
+	(wire
+		(pts
 			(xy 31.75 66.04) (xy 31.75 68.58)
 		)
 		(stroke
@@ -1154,23 +1164,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 139.7) (xy 155.575 139.7)
+			(xy 121.92 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b984a06-edb9-4bee-bbb9-ec06e2a19a75")
-	)
-	(wire
-		(pts
-			(xy 130.81 147.32) (xy 155.575 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e62186e-379d-477f-95be-dae9a26bae9b")
+		(uuid "12039343-8979-4f2e-8437-3bedf954ba5a")
 	)
 	(wire
 		(pts
@@ -1184,23 +1184,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 127.635 120.65)
+			(xy 111.76 133.35) (xy 137.16 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1de6a684-1002-43f2-bdaa-6fd035c8bab2")
+		(uuid "1c9f2959-61b8-43bf-a92c-b14ded445932")
 	)
 	(wire
 		(pts
-			(xy 115.57 135.89) (xy 155.575 135.89)
+			(xy 111.76 144.78) (xy 116.84 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35c62281-47c8-4407-b131-954fea46a410")
+		(uuid "2509db4f-a2d8-425f-8924-4bf28e84dac7")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285cabb3-3340-4f3f-9446-8f83b3ad954b")
 	)
 	(wire
 		(pts
@@ -1244,27 +1254,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 143.51) (xy 155.575 143.51)
+			(xy 120.65 115.57) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd299842-1375-456f-a743-b7e07a53f1a8")
+		(uuid "a605444f-b9e1-4e10-8941-79fa16a7d98c")
 	)
 	(wire
 		(pts
-			(xy 115.57 147.32) (xy 125.73 147.32)
+			(xy 111.76 137.16) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca5c4abd-1aa7-4662-b16c-6539a35e73a2")
+		(uuid "bd83679f-d7b7-4d30-94a3-04c31cfe9f12")
 	)
 	(wire
 		(pts
-			(xy 189.23 142.24) (xy 195.58 142.24)
+			(xy 160.02 140.97) (xy 166.37 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 195.58 139.7)
+			(xy 160.02 138.43) (xy 166.37 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1302,25 +1312,15 @@
 		)
 		(uuid "df014dc5-4831-4b7f-b2fa-ff9f1d050e62")
 	)
-	(label "LRCLK"
-		(at 146.05 143.51 180)
+	(label "DIN"
+		(at 124.46 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "2fb1c2f0-fb14-437b-817d-cf78c2f258b3")
-	)
-	(label "BCLK"
-		(at 146.05 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45a93f4a-23c4-4864-b6af-016c23ba7a2c")
+		(uuid "16a39f9b-f0ae-4313-8cc1-45cca4c2a342")
 	)
 	(label "NTC"
 		(at 63.5 69.85 180)
@@ -1332,25 +1332,15 @@
 		)
 		(uuid "56caed66-9608-436d-b50b-14d5b2e6f53a")
 	)
-	(label "~{SD_MODE}"
-		(at 146.05 147.32 180)
+	(label "BCLK"
+		(at 124.46 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "5f935c38-8b6d-4635-998b-62db36e7b8ff")
-	)
-	(label "DIN"
-		(at 146.05 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a5ca2a6-e19f-407a-bba2-907feddc6914")
+		(uuid "68c1d9f3-3f90-4948-8729-6839bb8107f2")
 	)
 	(label "VBAT"
 		(at 63.5 67.31 180)
@@ -1362,72 +1352,25 @@
 		)
 		(uuid "9f4a9f7e-7eb1-4d93-979f-4b15af81c745")
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 128.27 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fbaeae5-3ede-4109-a4fe-0d0a913fd5ad")
-		(property "Reference" "R2"
-			(at 128.27 145.796 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
+	(label "LRCLK"
+		(at 124.46 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "R_Small"
-			(at 128.27 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "cf0ada94-7299-4fd6-bad3-20a197b3d429")
+	)
+	(label "~{SD_MODE}"
+		(at 124.46 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" ""
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 128.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00da63e3-f56b-4729-a6d4-2ffee25ed09b")
-		)
-		(pin "1"
-			(uuid "f7bfcaf7-1a02-4a44-a575-e285acc9bfac")
-		)
-		(instances
-			(project ""
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f661ba24-fedc-4f8f-8c9d-6d02d6377d9e")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
@@ -1507,6 +1450,73 @@
 			(project ""
 				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 119.38 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f23a986-a1b8-4776-8ed3-af46c8c099a1")
+		(property "Reference" "R2"
+			(at 119.38 143.002 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 119.38 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69d22b7f-c2a0-4934-96b1-2ea46e794ac6")
+		)
+		(pin "1"
+			(uuid "257c8b94-c22f-48a8-ad8e-b2da8d07ff7a")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1730,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 127.635 115.57 0)
+		(at 120.65 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1729,7 +1739,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce1630ba-3055-46a5-b6fd-3fc1e607b00c")
 		(property "Reference" "AE1"
-			(at 130.175 114.9349 0)
+			(at 123.19 109.8549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1748,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 130.175 117.4749 0)
+			(at 123.19 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.635 115.57 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127.635 115.57 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1775,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 127.635 115.57 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1797,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 200.66 139.7 0)
+		(at 171.45 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1796,7 +1806,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3b25eb1-5f20-4d27-a5a6-aca16a8fa909")
 		(property "Reference" "LS1"
-			(at 205.74 139.6999 0)
+			(at 176.53 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1815,7 @@
 			)
 		)
 		(property "Value" "AS07104PO-R"
-			(at 205.74 142.2399 0)
+			(at 176.53 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 144.78 0)
+			(at 171.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.406 140.97 0)
+			(at 171.196 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1842,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 200.66 139.7 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,8 +1958,8 @@
 		)
 	)
 	(sheet
-		(at 155.575 133.35)
-		(size 33.655 16.51)
+		(at 137.16 130.175)
+		(size 22.86 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1964,7 +1974,7 @@
 		)
 		(uuid "437e71df-bd9b-467f-b101-39f98a623051")
 		(property "Sheetname" "AUDIO"
-			(at 155.575 132.6384 0)
+			(at 137.16 129.4634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1983,7 @@
 			)
 		)
 		(property "Sheetfile" "AUDIO.kicad_sch"
-			(at 155.575 150.4446 0)
+			(at 137.16 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1992,7 @@
 			)
 		)
 		(pin "BCLK" input
-			(at 155.575 135.89 180)
+			(at 137.16 133.35 180)
 			(uuid "26cd02fc-bed6-4b74-a775-2c8b07048df4")
 			(effects
 				(font
@@ -1992,7 +2002,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 155.575 139.7 180)
+			(at 137.16 137.16 180)
 			(uuid "3c0e5761-7d20-454a-a2f9-15bac19d9772")
 			(effects
 				(font
@@ -2002,7 +2012,7 @@
 			)
 		)
 		(pin "LRCLK" input
-			(at 155.575 143.51 180)
+			(at 137.16 140.97 180)
 			(uuid "a58fa750-8cce-44ac-9c05-dcec45c9cc69")
 			(effects
 				(font
@@ -2012,7 +2022,7 @@
 			)
 		)
 		(pin "~{SD_MODE}" input
-			(at 155.575 147.32 180)
+			(at 137.16 144.78 180)
 			(uuid "576b1c97-d3c3-4b33-8da5-15ae0dbf61a6")
 			(effects
 				(font
@@ -2022,7 +2032,7 @@
 			)
 		)
 		(pin "OUTN" input
-			(at 189.23 142.24 0)
+			(at 160.02 140.97 0)
 			(uuid "340ccac4-31c8-437b-b874-b8b86a0b581f")
 			(effects
 				(font
@@ -2032,7 +2042,7 @@
 			)
 		)
 		(pin "OUTP" input
-			(at 189.23 139.7 0)
+			(at 160.02 138.43 0)
 			(uuid "4ed52c64-c23f-45d8-a7db-13e4354fa70e")
 			(effects
 				(font
@@ -2050,8 +2060,8 @@
 		)
 	)
 	(sheet
-		(at 70.485 107.315)
-		(size 45.085 56.515)
+		(at 72.39 116.2049)
+		(size 39.37 39.3584)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2066,7 +2076,7 @@
 		)
 		(uuid "eb04787d-40f4-45c6-8e79-38c58cd136de")
 		(property "Sheetname" "MCU"
-			(at 70.485 106.6034 0)
+			(at 72.39 115.4933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2085,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 70.485 164.4146 0)
+			(at 72.39 156.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2094,7 @@
 			)
 		)
 		(pin "RF" input
-			(at 115.57 120.65 0)
+			(at 111.76 120.65 0)
 			(uuid "94359888-e828-4cad-817f-6f27dd165e34")
 			(effects
 				(font
@@ -2094,7 +2104,7 @@
 			)
 		)
 		(pin "SWDCLK" input
-			(at 70.485 148.59 180)
+			(at 72.39 152.3883 180)
 			(uuid "4a3ead03-bd4c-450f-85e1-31cfb24c2b05")
 			(effects
 				(font
@@ -2104,7 +2114,7 @@
 			)
 		)
 		(pin "SWDIO" input
-			(at 70.485 143.51 180)
+			(at 72.39 147.3083 180)
 			(uuid "7dc2f7de-e762-44a9-ab64-d8fc713cf471")
 			(effects
 				(font
@@ -2114,7 +2124,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 70.485 138.43 180)
+			(at 72.39 142.2283 180)
 			(uuid "72a64b88-4a47-4302-9ed8-8ba6298bf32e")
 			(effects
 				(font
@@ -2123,8 +2133,8 @@
 				(justify left)
 			)
 		)
-		(pin "P1.04/AIN0/CK" bidirectional
-			(at 115.57 135.89 0)
+		(pin "P1.04{slash}AIN0{slash}CK" bidirectional
+			(at 111.76 133.35 0)
 			(uuid "597f9a70-dc31-471e-8282-bfe2a4de82fa")
 			(effects
 				(font
@@ -2134,7 +2144,7 @@
 			)
 		)
 		(pin "P1.05/AIN1" bidirectional
-			(at 115.57 139.7 0)
+			(at 111.76 137.16 0)
 			(uuid "8e733cbe-a4f6-461b-adf8-b636509ffa76")
 			(effects
 				(font
@@ -2144,7 +2154,7 @@
 			)
 		)
 		(pin "P1.06/AIN2" bidirectional
-			(at 115.57 143.51 0)
+			(at 111.76 140.97 0)
 			(uuid "f4ffdfb3-f9b7-42e9-9f31-d1f77981884f")
 			(effects
 				(font
@@ -2154,7 +2164,7 @@
 			)
 		)
 		(pin "P1.07/AIN3" bidirectional
-			(at 115.57 147.32 0)
+			(at 111.76 144.78 0)
 			(uuid "09e7386f-4eb0-4613-a38b-0535531f39a5")
 			(effects
 				(font
