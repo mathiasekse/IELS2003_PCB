@@ -2000,6 +2000,16 @@
 		)
 		(uuid "227c4f9f-dcc9-4ce2-80fd-3e6a5a2d162b")
 	)
+	(text "3.0V"
+		(exclude_from_sim no)
+		(at 21.59 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2473107c-c0d6-47a8-aa2b-d5e764524d37")
+	)
 	(text "0201"
 		(exclude_from_sim no)
 		(at 146.558 77.216 0)
@@ -3704,7 +3714,7 @@
 	)
 	(symbol
 		(lib_id "Ekse:nRF54L15")
-		(at 115.57 198.12 0)
+		(at 121.92 156.21 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3712,7 +3722,7 @@
 		(dnp no)
 		(uuid "16c3051a-6269-4738-87cb-68c23735f6a0")
 		(property "Reference" "U1"
-			(at 115.57 164.084 0)
+			(at 121.92 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3731,7 @@
 			)
 		)
 		(property "Value" "nRF54L15-QFAA"
-			(at 115.57 166.624 0)
+			(at 121.92 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3740,7 @@
 			)
 		)
 		(property "Footprint" "Ekse:QFN48_6X6_NOR"
-			(at 115.57 198.12 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 198.12 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 198.12 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3767,7 @@
 			)
 		)
 		(property "MPN" "NRF54L15-QFAA-R7"
-			(at 115.57 198.12 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3776,7 @@
 			)
 		)
 		(property "Price" "23.08"
-			(at 115.57 198.12 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5892,7 @@
 	)
 	(symbol
 		(lib_id "Ekse:nRF54L15")
-		(at 149.86 196.85 0)
+		(at 91.44 186.69 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5890,7 +5900,7 @@
 		(dnp no)
 		(uuid "a4b6c43b-3c2a-465c-93c2-356b0e2b8e7d")
 		(property "Reference" "U1"
-			(at 149.86 178.054 0)
+			(at 91.44 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +5909,7 @@
 			)
 		)
 		(property "Value" "nRF54L15-QFAA"
-			(at 149.86 180.594 0)
+			(at 91.44 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +5918,7 @@
 			)
 		)
 		(property "Footprint" "Ekse:QFN48_6X6_NOR"
-			(at 149.86 196.85 0)
+			(at 91.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 196.85 0)
+			(at 91.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 196.85 0)
+			(at 91.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5945,7 @@
 			)
 		)
 		(property "MPN" "NRF54L15-QFAA-R7"
-			(at 149.86 196.85 0)
+			(at 91.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +5954,7 @@
 			)
 		)
 		(property "Price" "23.08"
-			(at 149.86 196.85 0)
+			(at 91.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

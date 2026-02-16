@@ -592,7 +592,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -613,7 +613,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -639,7 +639,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -657,7 +657,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -695,7 +695,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -865,6 +865,16 @@
 		)
 		(uuid "0c4ea1ec-5a2a-48a4-b697-c95418a8bbb1")
 	)
+	(text "From nPM1300"
+		(exclude_from_sim no)
+		(at 173.736 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fc0b753-a426-48a2-8a95-9e4551cf42e2")
+	)
 	(text "I2S AUDIO INTERFACE"
 		(exclude_from_sim no)
 		(at 128.524 56.642 0)
@@ -874,6 +884,16 @@
 			)
 		)
 		(uuid "b5524f1a-6ec5-40ef-9569-f34781702209")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 172.72 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f97a500e-2ff2-4984-b5fe-7038c4e3afa5")
 	)
 	(text_box "SPEAKER OUT\n"
 		(exclude_from_sim no)
@@ -1988,6 +2008,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81631e77-416e-4e7d-aa57-257c9baf6f46")
+		(property "Reference" "#PWR028"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_AUDIO"
+			(at 172.72 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73645875-cb3b-40f2-aa82-d9806c0e99ba")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Ekse:MAX98357A")
 		(at 140.97 93.98 0)
 		(unit 1)
@@ -2168,72 +2253,6 @@
 			(project "nRF_beacon"
 				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 172.72 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d6f1fc5-3241-426e-84ab-b8d9a27fe6b2")
-		(property "Reference" "#PWR024"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 172.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5c742f3-89a6-4ec0-a305-3eb31b85a5d3")
-		)
-		(instances
-			(project "nRF_beacon"
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)

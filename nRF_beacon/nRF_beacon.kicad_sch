@@ -5,455 +5,6 @@
 	(uuid "1290e5f5-b91f-4d6e-b440-6b78e8fdc212")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -1.27) (xy -8.89 6.35)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.27)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 6.35)
-					(mid -6.985 6.9823)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 6.35)
-					(mid -6.985 6.9823)
-					(end -6.35 6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 6.35)
-					(mid -6.985 8.2467)
-					(end -5.08 6.35)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -1.27)
-					(mid -6.985 -3.1667)
-					(end -8.89 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -1.27)
-					(mid -6.985 -1.9023)
-					(end -7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -1.27)
-					(mid -6.985 -1.9023)
-					(end -7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 6.35) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 3.683)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 6.858)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.302)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 4.318)
-					(end 3.175 5.588)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
-				(pin passive line
-					(at -7.62 -17.78 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1138,10 +689,6 @@
 		)
 		(uuid "e6a3d3a7-81d4-4faf-ad26-214f4799e02d")
 	)
-	(no_connect
-		(at 24.13 66.04)
-		(uuid "79d2be23-6579-4ef1-95b5-ff02ce624005")
-	)
 	(wire
 		(pts
 			(xy 111.76 120.65) (xy 120.65 120.65)
@@ -1151,16 +698,6 @@
 			(type default)
 		)
 		(uuid "0122596d-0a16-4e12-a25f-36311ec80f90")
-	)
-	(wire
-		(pts
-			(xy 31.75 66.04) (xy 31.75 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0127ae7c-84b8-48e2-b6ab-99f7d8913b12")
 	)
 	(wire
 		(pts
@@ -1174,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 69.85 69.85)
+			(xy 57.15 44.45) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 69.85 67.31)
+			(xy 57.15 41.91) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1224,33 +761,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 62.23 72.39)
+			(xy 57.15 46.99) (xy 60.96 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78887805-07fa-4d3b-aa37-67e6e71c120d")
-	)
-	(wire
-		(pts
-			(xy 46.99 53.34) (xy 69.85 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c57dfc0-679d-4f62-aaa3-9ba5ea5d5e83")
-	)
-	(wire
-		(pts
-			(xy 46.99 55.88) (xy 69.85 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2658cb-768b-4311-9b79-fc0852428ea0")
 	)
 	(wire
 		(pts
@@ -1284,16 +801,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 40.64) (xy 69.85 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03c01b5-0a4a-4f91-99f1-fe4e38abbf2b")
-	)
-	(wire
-		(pts
 			(xy 160.02 138.43) (xy 166.37 138.43)
 		)
 		(stroke
@@ -1304,7 +811,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 72.39) (xy 62.23 74.93)
+			(xy 60.96 46.99) (xy 60.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +830,7 @@
 		(uuid "16a39f9b-f0ae-4313-8cc1-45cca4c2a342")
 	)
 	(label "NTC"
-		(at 63.5 69.85 180)
+		(at 62.23 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1343,7 +850,7 @@
 		(uuid "68c1d9f3-3f90-4948-8729-6839bb8107f2")
 	)
 	(label "VBAT"
-		(at 63.5 67.31 180)
+		(at 62.23 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,107 +878,6 @@
 			(justify left bottom)
 		)
 		(uuid "f661ba24-fedc-4f8f-8c9d-6d02d6377d9e")
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
-		(at 31.75 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d8b9018-6eb9-4202-8372-908bcd2ba023")
-		(property "Reference" "J1"
-			(at 31.75 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-			(at 31.75 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 31.75 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 31.75 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 31.75 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 31.75 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "99efe075-2b38-40e5-af8a-cb52c5ea62fe")
-		)
-		(pin "A12"
-			(uuid "0187e07c-6118-4128-82c7-b65194796730")
-		)
-		(pin "B12"
-			(uuid "6906a7da-048e-46ff-8205-2e20cdf2d9af")
-		)
-		(pin "A5"
-			(uuid "c6f6291f-5a8c-48ca-86bb-d1f3560be9b3")
-		)
-		(pin "B9"
-			(uuid "21251b9c-7ffa-4d79-bd2a-46a0526b13e4")
-		)
-		(pin "B5"
-			(uuid "e74e0738-83b5-42b2-af8c-eeaa1a4b2326")
-		)
-		(pin "A9"
-			(uuid "f35b6aaf-e2fb-4661-b4c6-97680078b07e")
-		)
-		(instances
-			(project ""
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1559,75 +965,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 31.75 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31368f9a-3203-48df-94e2-fb45dddf7ddb")
-		(property "Reference" "#PWR01"
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 31.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7af8719c-bcb2-48b5-85b6-a041d499e8e3")
-		)
-		(instances
-			(project ""
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 53.34 69.85 0)
+		(at 52.07 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1637,7 +976,7 @@
 		(fields_autoplaced yes)
 		(uuid "33200442-42c9-42ea-8356-83f9b76041d9")
 		(property "Reference" "J2"
-			(at 53.34 60.96 0)
+			(at 52.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +984,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 53.34 63.5 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 69.85 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 69.85 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1010,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 69.85 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1019,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 53.34 69.85 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1028,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 53.34 69.85 0)
+			(at 52.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1060,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 62.23 74.93 0)
+		(at 60.96 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1730,7 +1069,7 @@
 		(fields_autoplaced yes)
 		(uuid "736bbf69-774d-44f1-a79c-39410b4d79e4")
 		(property "Reference" "#PWR02"
-			(at 62.23 81.28 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1078,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 62.23 80.01 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 74.93 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 74.93 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 62.23 74.93 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,6 +1321,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
@@ -1994,7 +1334,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 69.85 67.31 180)
+			(at 69.85 41.91 180)
 			(uuid "d6c09ace-3dff-4cfe-9203-ac012c0ba445")
 			(effects
 				(font
@@ -2003,38 +1343,8 @@
 				(justify left)
 			)
 		)
-		(pin "CC1" bidirectional
-			(at 69.85 53.34 180)
-			(uuid "2db4ed02-189b-4b2b-b1c6-6aa09e2d9679")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CC2" bidirectional
-			(at 69.85 55.88 180)
-			(uuid "6d716c40-3c70-491c-a4ee-805b8de3d0c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VBUS" input
-			(at 69.85 40.64 180)
-			(uuid "f8bee9ac-4bb7-484b-8c61-1af33fe03c50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NTC" input
-			(at 69.85 69.85 180)
+			(at 69.85 44.45 180)
 			(uuid "9d0de397-14e0-4cb0-9f2b-bb61d85431c7")
 			(effects
 				(font
