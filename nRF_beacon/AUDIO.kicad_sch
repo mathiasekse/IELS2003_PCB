@@ -296,6 +296,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Ekse:MAX98357A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -865,6 +990,16 @@
 		)
 		(uuid "0c4ea1ec-5a2a-48a4-b697-c95418a8bbb1")
 	)
+	(text "Mode: \n(Left/2 + Right/2)"
+		(exclude_from_sim no)
+		(at 113.284 99.314 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "5d5563ae-1767-42d8-ae43-a9c232c3f100")
+	)
 	(text "From nPM1300"
 		(exclude_from_sim no)
 		(at 173.736 68.834 0)
@@ -1081,16 +1216,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b28919-74e2-4c51-a044-2405fa8c92c7")
-	)
-	(wire
-		(pts
 			(xy 172.72 78.74) (xy 172.72 81.28)
 		)
 		(stroke
@@ -1221,6 +1346,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 93.98) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be06a1c2-0c0c-4e74-bd2b-1f0cdbb2a06f")
+	)
+	(wire
+		(pts
 			(xy 158.75 78.74) (xy 158.75 81.28)
 		)
 		(stroke
@@ -1291,6 +1426,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de80f9dc-e9cd-4a4f-b736-b18cb99bbf1b")
+	)
+	(wire
+		(pts
 			(xy 124.46 111.76) (xy 124.46 113.03)
 		)
 		(stroke
@@ -1308,6 +1453,16 @@
 			(type default)
 		)
 		(uuid "eff41121-d5ce-488a-83d4-99594936da55")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f137eace-ddd5-4e34-9552-4c1da9e2c9d0")
 	)
 	(wire
 		(pts
@@ -1339,17 +1494,6 @@
 			(justify right)
 		)
 		(uuid "3e7715c6-b090-4249-aa87-c92424bee401")
-	)
-	(hierarchical_label "~{SD_MODE}"
-		(shape input)
-		(at 109.22 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f7c4099-3baa-4d87-8c6b-eff0dab4188e")
 	)
 	(hierarchical_label "DIN"
 		(shape input)
@@ -2009,6 +2153,71 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 115.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77fb6252-028a-47f4-8c86-294357ac962a")
+		(property "Reference" "#PWR024"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_AUDIO"
+			(at 115.57 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c1e64d3-fec0-437b-9dec-508b798d6c2c")
+		)
+		(instances
+			(project "nRF_beacon"
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 172.72 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2253,6 +2462,73 @@
 			(project "nRF_beacon"
 				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d67b010-79d5-4336-ae0e-9ff230c217cf")
+		(property "Reference" "R1"
+			(at 120.65 94.996 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 120.65 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d3110d5-5d61-4134-a0a5-e43724e756d9")
+		)
+		(pin "1"
+			(uuid "fac98e0a-018c-4613-a01d-43b93e091a25")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/437e71df-bd9b-467f-b101-39f98a623051"
+					(reference "R1")
 					(unit 1)
 				)
 			)
