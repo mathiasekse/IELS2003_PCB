@@ -1241,6 +1241,16 @@
 		)
 		(uuid b68e9fcd-fd89-477a-b06a-4a843d9c199c)
 	)
+	(text "nPM1300"
+		(exclude_from_sim no)
+		(at 113.538 43.434 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "10cc8623-6657-43e2-b59a-52cec480ea78")
+	)
 	(text "DEBUG IN"
 		(exclude_from_sim no)
 		(at 120.396 105.41 0)
@@ -1281,6 +1291,16 @@
 		)
 		(uuid "7b07a9c5-d8ff-48b1-ba3e-efc056c3fb60")
 	)
+	(text "nRF54L15"
+		(exclude_from_sim no)
+		(at 178.816 68.58 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a338a9c1-6be1-4a95-809c-7d08d669d77a")
+	)
 	(text "TWI"
 		(exclude_from_sim no)
 		(at 146.812 72.136 0)
@@ -1290,6 +1310,16 @@
 			)
 		)
 		(uuid "bb0e5bac-6434-4b98-8f21-cdcce56e81d0")
+	)
+	(text "MAX98357A"
+		(exclude_from_sim no)
+		(at 236.22 78.486 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d089eb2a-54ee-4ede-9095-8b5a878d2051")
 	)
 	(junction
 		(at 105.41 116.84)
