@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "APGF1012GBRC-07"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-05-17-03:54:57)
+    (mountForm default
+        (footprintRef "APGF1012GBRC07")
+        (spec "System")
+    )
+)

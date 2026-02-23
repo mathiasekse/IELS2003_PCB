@@ -1566,7 +1566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -1593,7 +1593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C221J5RACTM"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -1602,7 +1602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "1.3"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM03BR51E104KH"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "1.39"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "1000"
 			(at 165.1 99.06 90)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 98.298 90)
 			(effects
 				(font
@@ -1966,7 +1966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BLM21SP102SN1D"
 			(at 165.1 96.52 90)
 			(effects
 				(font
@@ -1975,7 +1975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "2.99"
 			(at 165.1 96.52 90)
 			(effects
 				(font
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "1000"
 			(at 165.1 107.442 90)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 105.918 90)
 			(effects
 				(font
@@ -2051,7 +2051,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BLM21SP102SN1D"
 			(at 165.1 104.14 90)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "2.99"
 			(at 165.1 104.14 90)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MAX98357AETE+T"
 			(at 140.97 93.98 0)
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "51.62"
 			(at 140.97 93.98 0)
 			(effects
 				(font
@@ -2484,7 +2484,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "634k"
 			(at 120.65 98.552 90)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 96.52 0)
 			(effects
 				(font
@@ -2512,6 +2512,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0603634KDHTAP"
+			(at 120.65 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.89"
+			(at 120.65 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.56 83.82 0)
 			(effects
 				(font
@@ -2588,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15CR51E106KT"
 			(at 162.56 83.82 0)
 			(effects
 				(font
@@ -2597,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "5.09"
 			(at 162.56 83.82 0)
 			(effects
 				(font
@@ -2648,7 +2666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.69 111.76 0)
 			(effects
 				(font
@@ -2675,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C221J5RACTM"
 			(at 186.69 111.76 0)
 			(effects
 				(font
@@ -2684,7 +2702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "1.3"
 			(at 186.69 111.76 0)
 			(effects
 				(font

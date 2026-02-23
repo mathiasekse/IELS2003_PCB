@@ -1,0 +1,18 @@
+.APGF1012GBRC-07 :1 ;Red, Green, Blue (RGB) 624nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.95V Red, 2.85V Green, 2.8V Blue 4-SMD, No Lead
+APGF1012GBRC07
+*STM LED
+*NGS
+*PLB 1="COM_A" 2="K_GREEN" 3="K_BLUE" 4="K_RED"
+*MXP 4
+*DFN APGF1012GBRC-07
+~!Manufacturer_Name (Kingbright)
+~!Manufacturer_Part_Number (APGF1012GBRC-07)
+~!Mouser Part Number (604-APGF1012GBRC-07)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Kingbright/APGF1012GBRC-07?qs=aP1CjGhiNiHAQm9ZxbLXkg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.kingbrightusa.com/images/catalog/SPEC/APGF1012GBRC-07.pdf)
+~!Height (0.3mm)
+~!3D_Model (APGF1012GBRC-07)
+APGF1012GBRC-07
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'APGF1012GBRC_07'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kingbright", "APGF1012GBRC-07" (!) = "", "APGF1012GBRC07", "Other", "604-APGF1012GBRC-07", "https://www.mouser.co.uk/ProductDetail/Kingbright/APGF1012GBRC-07?qs=aP1CjGhiNiHAQm9ZxbLXkg%3D%3D", "", "", "Red, Green, Blue (RGB) 624nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.95V Red, 2.85V Green, 2.8V Blue 4-SMD, No Lead", "https://www.kingbrightusa.com/images/catalog/SPEC/APGF1012GBRC-07.pdf", "0.3 mm"
+END_PART
+
+END.

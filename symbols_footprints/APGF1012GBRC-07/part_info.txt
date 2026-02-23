@@ -1,0 +1,9 @@
+Manufacturer=Kingbright
+PartNumber=APGF1012GBRC-07
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.4
+Released=2023-05-17 03:54:57
+Downloaded=2026-02-23 10:26:12
+3D=Y

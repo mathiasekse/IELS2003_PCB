@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "APGF1012GBRC-07"
+   (description "Red, Green, Blue (RGB) 624nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.95V Red, 2.85V Green, 2.8V Blue 4-SMD, No Lead")
+   (family "DIO")
+   (package "APGF1012GBRC07")
+   (attribute "Datasheet Link" "https://www.kingbrightusa.com/images/catalog/SPEC/APGF1012GBRC-07.pdf")
+   (attribute "Geometry.Height" "0.3mm")
+   (attribute "Manufacturer_Name" "Kingbright")
+   (attribute "Manufacturer_Part_Number" "APGF1012GBRC-07")
+   (attribute "Mouser Part Number" "604-APGF1012GBRC-07")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APGF1012GBRC-07?qs=aP1CjGhiNiHAQm9ZxbLXkg%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "APGF1012GBRC-07")
+    (pin "COM_A" 1 PS)
+    (pin "K_GREEN" 2 PS)
+    (pin "K_BLUE" 3 PS)
+    (pin "K_RED" 4 PS)
+   )
+  )
+  (symbol "APGF1012GBRC-07"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "APGF1012GBRC07"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 -0.5)
+      (pt 0.5 -0.5)
+      (pt 0.5 0.5)
+      (pt -0.5 0.5)
+      (pt -0.5 -0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.525 1.525)
+      (pt 1.525 1.525)
+      (pt 1.525 -1.525)
+      (pt -1.525 -1.525)
+      (pt -1.525 1.525))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0.325)
+      (arc (pt -1.000 0.325) (pt -1.000 0.275) (pt -0.900 0.375) (start 180.0) (sweep 180.0))
+      (pt -0.9 0.325)
+      (arc (pt -0.900 0.325) (pt -1.000 0.275) (pt -0.900 0.375) (start 180.0) (sweep .0))
+      (pt -1 0.325))))
+   (leg 1 (pt -0.325 0.325) (padstack 0))
+   (leg 2 (pt -0.325 -0.325) (padstack 0))
+   (leg 3 (pt 0.325 -0.325) (padstack 0))
+   (leg 4 (pt 0.325 0.325) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 0.400))
+   )
+   (model "APGF1012GBRC-07.stp"
+    (euler 0 0 0)
+    (offset -794.739990234375 -329.04998779296875 0)
+   )
+  )
+ )
+)

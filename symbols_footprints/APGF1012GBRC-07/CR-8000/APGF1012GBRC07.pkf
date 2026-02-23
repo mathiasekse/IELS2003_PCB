@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "APGF1012GBRC07"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "APGF1012GBRC07")
+        (spec "default")
+    )
+)
