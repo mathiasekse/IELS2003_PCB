@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CX2016DB32000D0WZRC1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kyocera AVX", "CX2016DB32000D0WZRC1" (!) = "", "CX2016DB32000D0WZRC1", "Other", "581-CX2016DB32DWZRC1", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/CX2016DB32000D0WZRC1?qs=mHG8nxlouK5LiZGb%2FcBxwg%3D%3D", "CX2016DB32000D0WZRC1", "https://www.arrow.com/en/products/cx2016db32000d0wzrc1/avx?region=nac", "32 MHz +/-25ppm Crystal 8pF 60 Ohms 4-SMD, No Lead", "https://www.digikey.com/en/products/detail/kyocera-avx/CX2016DB32000D0WZRC1/5436842", "0.45 mm"
+END_PART
+
+END.

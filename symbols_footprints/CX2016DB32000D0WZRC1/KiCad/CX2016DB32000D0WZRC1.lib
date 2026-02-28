@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CX2016DB32000D0WZRC1
+#/15812273/1904100/2.50/4/3/Crystal or Oscillator
+DEF CX2016DB32000D0WZRC1 Y 0 30 Y Y 1 F N
+F0 "Y" 1550 300 50 H V L CNN
+F1 "CX2016DB32000D0WZRC1" 1550 200 50 H V L CNN
+F2 "CX2016DB32000D0WZRC1" 1550 100 50 H I L CNN
+F3 "https://www.digikey.com/en/products/detail/kyocera-avx/CX2016DB32000D0WZRC1/5436842" 1550 0 50 H I L CNN
+F4 "32 MHz +/-25ppm Crystal 8pF 60 Ohms 4-SMD, No Lead" 1550 -100 50 H I L CNN "Description"
+F5 "0.45" 1550 -200 50 H I L CNN "Height"
+F6 "Kyocera AVX" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CX2016DB32000D0WZRC1" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-CX2016DB32DWZRC1" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/CX2016DB32000D0WZRC1?qs=mHG8nxlouK5LiZGb%2FcBxwg%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "CX2016DB32000D0WZRC1" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cx2016db32000d0wzrc1/avx?region=nac" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CRYSTAL__1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1700 -100 200 L 50 50 0 0 P
+X CRYSTAL__2 3 1700 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

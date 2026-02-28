@@ -3390,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3417,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 204.47 71.12 0)
 			(effects
 				(font
@@ -3616,7 +3616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 217.17 101.6 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 217.17 96.52 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 101.6 97.79 0)
 			(effects
 				(font
@@ -3797,7 +3797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 90.17 135.89 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 90.17 130.81 0)
 			(effects
 				(font
@@ -4323,7 +4323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 82.55 165.1 0)
 			(effects
 				(font
@@ -4350,7 +4350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 82.55 160.02 0)
 			(effects
 				(font
@@ -4825,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 184.15 162.56 0)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 184.15 157.48 0)
 			(effects
 				(font
@@ -4892,7 +4892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -5313,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GND\""
 			(at 215.9 119.38 0)
 			(effects
 				(font

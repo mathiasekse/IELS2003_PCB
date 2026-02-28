@@ -1,0 +1,18 @@
+.CX2016DB32000D0WZRC1 :1 ;32 MHz +/-25ppm Crystal 8pF 60 Ohms 4-SMD, No Lead
+CX2016DB32000D0WZRC1
+*STM Y
+*NGS
+*PLB 1="CRYSTAL _1" 2="GND_1" 3="CRYSTAL _2" 4="GND_2"
+*MXP 4
+*DFN CX2016DB32000D0WZRC1
+~!Manufacturer_Name (Kyocera AVX)
+~!Manufacturer_Part_Number (CX2016DB32000D0WZRC1)
+~!Mouser Part Number (581-CX2016DB32DWZRC1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/CX2016DB32000D0WZRC1?qs=mHG8nxlouK5LiZGb%2FcBxwg%3D%3D)
+~!Arrow Part Number (CX2016DB32000D0WZRC1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cx2016db32000d0wzrc1/avx?region=nac)
+~!Link Datasheet (https://www.digikey.com/en/products/detail/kyocera-avx/CX2016DB32000D0WZRC1/5436842)
+~!Height (0.45mm)
+~!3D_Model (CX2016DB32000D0WZRC1)
+CX2016DB32000D0WZRC1
+1.1!U 2.1!U 3.1!U 4.1!U 
