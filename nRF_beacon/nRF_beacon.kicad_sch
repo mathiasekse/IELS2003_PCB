@@ -1764,6 +1764,12 @@
 		(uuid "8a7e7a1c-daad-4910-9bcf-82a2b5c481f9")
 	)
 	(junction
+		(at 208.28 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bbd0def-a924-4ca0-92e0-9b6b0d9e27a0")
+	)
+	(junction
 		(at 105.41 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1828,6 +1834,16 @@
 			(type default)
 		)
 		(uuid "0aadb617-c512-4872-abaa-7ea10992eb1d")
+	)
+	(wire
+		(pts
+			(xy 215.9 80.01) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af42eeb-84d3-4f5b-8e17-1a165dfd9573")
 	)
 	(wire
 		(pts
@@ -1908,6 +1924,16 @@
 			(type default)
 		)
 		(uuid "360244cc-d312-430f-8fb9-55f6821da840")
+	)
+	(wire
+		(pts
+			(xy 208.28 74.93) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1bda87-3982-4f21-9a30-257161380c86")
 	)
 	(wire
 		(pts
@@ -2258,6 +2284,73 @@
 			(justify left bottom)
 		)
 		(uuid "e880da38-4507-4b2e-b112-79e3549fd3c2")
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 215.9 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1193725b-b619-46f3-b125-ea7cd6cd9c1f")
+		(property "Reference" "#PWR043"
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee58da74-d60d-48e4-b0a4-476a283f9ca6")
+		)
+		(instances
+			(project "nRF_beacon"
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -2773,6 +2866,75 @@
 			(project ""
 				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 215.9 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f7baba5-217e-43f2-b7bb-7d395ed12110")
+		(property "Reference" "C26"
+			(at 217.678 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.4pF"
+			(at 217.678 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4655e93-3329-49e1-8cfa-96249c40b5b3")
+		)
+		(pin "2"
+			(uuid "cc0887c2-80db-4ca9-ae62-f813e68aa470")
+		)
+		(instances
+			(project ""
+				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212"
+					(reference "C26")
 					(unit 1)
 				)
 			)
