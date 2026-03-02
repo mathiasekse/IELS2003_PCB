@@ -2106,119 +2106,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VSS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VSS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VSS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VSS_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 78.105 134.62)
@@ -2232,6 +2119,16 @@
 		)
 		(uuid b87d4d9e-59b4-4998-bbed-19da7e1cfdca)
 	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 200.66 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eb0687d-9070-4740-9047-7edf6e72e7e7")
+	)
 	(text "TWI"
 		(exclude_from_sim no)
 		(at 104.902 168.402 0)
@@ -2241,6 +2138,16 @@
 			)
 		)
 		(uuid "45400657-7801-48d2-8f24-6ea4a8d77ea6")
+	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 200.66 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4dfb91e9-65de-42ce-92dd-c3b57d1c76f3")
 	)
 	(text "3.3 V"
 		(exclude_from_sim no)
@@ -2653,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 82.55) (xy 195.58 83.82)
+			(xy 209.55 82.55) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2800,6 +2707,16 @@
 			(type default)
 		)
 		(uuid "8506938f-dc1e-4c7c-9205-9c15836aca58")
+	)
+	(wire
+		(pts
+			(xy 209.55 83.82) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86674905-73f8-4e73-80d1-40a4f2fc955c")
 	)
 	(wire
 		(pts
@@ -3181,6 +3098,94 @@
 		)
 		(uuid "bc98874e-2425-431f-96a6-68f96f401c5a")
 	)
+	(global_label "VSS1"
+		(shape input)
+		(at 186.69 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "542ddaca-4249-40b9-bcea-00b5a35de33b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 78.8223 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS2"
+		(shape input)
+		(at 195.58 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63e0c095-e06c-426a-9152-3e2feb6496fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 78.8223 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS1"
+		(shape input)
+		(at 195.58 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d028ae1-c31f-4569-8426-123bcd9c9666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 102.9523 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS2"
+		(shape input)
+		(at 195.58 119.38 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6bd8300-c7ec-4518-935f-41b5d9c8d66b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 127.0823 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 100.33 137.16 180)
@@ -3357,7 +3362,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM15CR51E106KT"
+		(property "MPN" ""
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -3366,7 +3371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "5.09"
+		(property "Price" ""
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -3459,7 +3464,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 195.58 82.55 0)
+		(at 209.55 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3467,7 +3472,7 @@
 		(dnp no)
 		(uuid "1b5c7dd0-133e-45ae-a5d0-8cc4143f9f1d")
 		(property "Reference" "#PWR01"
-			(at 195.58 86.36 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3481,7 @@
 			)
 		)
 		(property "Value" "VDD_AUDIO"
-			(at 195.58 78.994 0)
+			(at 209.55 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 82.55 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 82.55 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 195.58 82.55 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,71 +4197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 195.58 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74a6b509-c214-4300-9a89-be992a57fed1")
-		(property "Reference" "#PWR041"
-			(at 195.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS2"
-			(at 195.58 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7c2a8b6-96d2-44d2-bead-05e4195590df")
-		)
-		(instances
-			(project "nRF_beacon"
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/1b7d8d32-f2af-4099-9901-f3134d87cd68"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 90.17 130.81 0)
 		(unit 1)
@@ -4391,71 +4331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 195.58 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a09851b-1c86-42ba-bf3c-edb8e60b23dd")
-		(property "Reference" "#PWR039"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS2"
-			(at 195.58 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "087158b2-91ba-4825-9322-508f3a9f1e23")
-		)
-		(instances
-			(project "nRF_beacon"
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/1b7d8d32-f2af-4099-9901-f3134d87cd68"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 85.09 97.79 0)
 		(unit 1)
@@ -4515,71 +4390,6 @@
 			(project "nRF_beacon"
 				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/1b7d8d32-f2af-4099-9901-f3134d87cd68"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 186.69 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f7f7048-21fa-488b-b319-2a981c6ed000")
-		(property "Reference" "#PWR038"
-			(at 186.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS1"
-			(at 186.69 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b8f88c6-3045-4060-9720-9d7e9105c272")
-		)
-		(instances
-			(project "nRF_beacon"
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/1b7d8d32-f2af-4099-9901-f3134d87cd68"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5134,71 +4944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 195.58 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cce60319-d45f-4cd2-8355-59d97c4ed9b6")
-		(property "Reference" "#PWR042"
-			(at 195.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS1"
-			(at 195.58 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 195.58 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49e7eb52-b110-405e-b7d2-e6510f1cbc4e")
-		)
-		(instances
-			(project "nRF_beacon"
-				(path "/1290e5f5-b91f-4d6e-b440-6b78e8fdc212/1b7d8d32-f2af-4099-9901-f3134d87cd68"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 182.88 87.63 0)
 		(unit 1)
@@ -5378,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-4_SMD_Pad0.5mm"
+		(property "Footprint" "Ekse:NetTieSmall"
 			(at 209.55 93.98 0)
 			(effects
 				(font
@@ -5463,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-4_SMD_Pad0.5mm"
+		(property "Footprint" "Ekse:NetTieSmall"
 			(at 209.55 116.84 0)
 			(effects
 				(font
@@ -5578,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KGM15CR51E106KT"
+		(property "MPN" ""
 			(at 195.58 110.49 0)
 			(effects
 				(font
@@ -5587,7 +5332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "5.09"
+		(property "Price" ""
 			(at 195.58 110.49 0)
 			(effects
 				(font
