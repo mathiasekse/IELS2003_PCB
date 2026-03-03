@@ -1484,6 +1484,26 @@
 		)
 		(uuid "fe1dee3e-b97d-4095-bbfa-3c5a22941790")
 	)
+	(label "OUTN"
+		(at 156.21 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "502a5440-8935-488f-8c31-52cbb3876158")
+	)
+	(label "OUTP"
+		(at 156.21 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95c97ca8-bb3a-4310-9e5f-49dfa20f57ac")
+	)
 	(hierarchical_label "LRCLK"
 		(shape input)
 		(at 109.22 81.28 180)

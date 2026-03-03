@@ -3651,7 +3651,7 @@
 		)
 		(uuid "f82d85f6-3843-4b01-b94f-1c75c2306577")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 229.87 60.96 0)
 		(effects
@@ -3717,7 +3717,7 @@
 		)
 		(uuid "ab59efd8-7c27-4eb5-aff4-957309247a3c")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SDA"
 		(shape input)
 		(at 229.87 63.5 0)
 		(effects
