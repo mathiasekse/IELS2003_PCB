@@ -7,6 +7,7 @@
 		(at 0 -1.524 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "b962393e-805b-4f7f-a71f-889373a26f95")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "1b2dc51b-f231-41c2-aaa5-e0f3c1e330bc")
 		(effects
 			(font
@@ -55,67 +57,100 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0 0)
-		(end 23.622 0)
+		(start 0.79 0)
+		(end 4.89 0)
 		(stroke
-			(width 1.5)
+			(width 1.27)
 			(type solid)
 		)
 		(layer "F.Cu")
-		(uuid "6f07376a-ebcc-4537-a610-173396f697e7")
+		(uuid "99deb3f0-9e1f-4fdd-b812-e6bea7ee5a67")
+	)
+	(fp_line
+		(start 4.89 0)
+		(end 6.45 1.559)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "3656c388-a98a-409f-8412-43b0a5531568")
+	)
+	(fp_line
+		(start 6.45 1.731731)
+		(end 6.45 18.154731)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "83a2c56a-32d2-4e74-adf1-67933b10b749")
+	)
+	(fp_line
+		(start 0.96 -32.62)
+		(end 7.16 27.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8334c1e6-94ba-4444-b56d-247e3f68f1f2")
+	)
+	(fp_line
+		(start 7.16 -32.62)
+		(end 0.96 27.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c43c8c22-2d41-4752-86c4-17eb8b490251")
+	)
+	(fp_rect
+		(start 0.96 -32.62)
+		(end 7.16 27.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8462e0c7-224c-4843-a222-b9c281d942af")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0.03 -0.005 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "622720b6-ba53-4d49-a6ff-474407e0ba12")
+		(uuid "1e0e23f4-3621-4cfd-9ff1-004e336d190c")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.03125)
 			)
 		)
 	)
-	(pad "1" smd circle
+	(pad "1" connect custom
 		(at 0 0)
-		(size 1.27 1.27)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(thermal_bridge_angle 90)
-		(uuid "fb922f4e-69a3-4e6f-ba69-297876e8fbce")
+		(size 0.5 0.58)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "1db8b78d-b9c8-4b38-b839-d16697ac317f")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "53f08b46-ff95-49b6-a575-f869392e7d10")
-		(name "ANTENNA")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
+	(pad "2" connect custom
+		(at 6.45 18.154731)
+		(size 1.27 1.344)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
 		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints not_allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 0 -10.668) (xy 25.4 -10.668) (xy 25.4 7.112) (xy 0 7.112)
-			)
-		)
+		(primitives)
+		(uuid "2aa5dfbf-7a87-451c-9a6c-2de226cb6e64")
 	)
 	(embedded_fonts no)
 )
