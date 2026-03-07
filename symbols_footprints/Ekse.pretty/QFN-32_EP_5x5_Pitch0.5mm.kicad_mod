@@ -493,4 +493,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${PROJECT_3D}/QFN32_5X5_NOR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
