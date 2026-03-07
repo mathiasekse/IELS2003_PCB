@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "68f1043d-8fdb-468b-999c-3793a0bb62f9")
 	(paper "A4")
+	(title_block
+		(title "I2S Audio Output")
+		(date "2026-03-07")
+		(rev "A")
+		(company "Mathias Ekse")
+		(comment 1 "Audio Interface")
+		(comment 2 "MAX98357A DAC")
+		(comment 3 "I2S Audio")
+		(comment 4 "Speaker Output")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1086,6 +1096,18 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 90.17 60.325)
+		(end 219.71 128.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ba3b76c-be5e-4d87-951d-6c156be75c4f)
 	)
 	(text "Gain:\nVDD ~ 100kOhm - 3 dB\nVDD - 6 dB\nUnconnected - 9 dB\nGND - 12 dB (Foreløpig valg)\nGnd ~ 100kOhm - 15 dB"
 		(exclude_from_sim no)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 3.8
+          "height": 0.9,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,15 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|155358052|104320147|036b0d0b-cc8b-4d3d-ae5d-2c110686c7e0|a40efbb1-c08d-423c-9478-962cce68016b",
+          ""
+        ],
+        [
           "clearance|155358052|104450147|224478a2-633a-4a2b-a8dc-60a22b09fbe4|a40efbb1-c08d-423c-9478-962cce68016b",
+          ""
+        ],
+        [
+          "clearance|155418052|97375000|6106fce4-942b-4b20-b5bd-134b1dabc6a2|d41f4504-0466-4ec2-bf3a-79c02d44cedc",
           ""
         ],
         [
@@ -101,6 +109,10 @@
         ],
         [
           "clearance|161488052|83775147|ce68489c-5aa3-4f9f-a109-820a73145bae|50213ed8-3a19-450d-bb29-d10de7465b71",
+          ""
+        ],
+        [
+          "clearance|162523053|104525001|723450fe-b2f1-45cd-a81d-f187d2dfc133|aeba431f-6fd0-464f-868a-cbac1900c7e5",
           ""
         ],
         [
@@ -176,11 +188,35 @@
           ""
         ],
         [
-          "clearance|167908052|101915147|4f666c79-a7d9-4b08-9ab7-d45cce322a9e|ea06dc42-ba6c-4c0d-aaff-bf6da66dd0c6",
+          "clearance|167163052|101935147|21906f53-7619-4744-b627-3f44921bb744|33b49db1-c21b-43ad-ba07-1ef07ec5d13e",
           ""
         ],
         [
-          "clearance|172026104|102955147|f5c64fdd-b402-4c06-8834-304ce70954f9|e6da2c21-22ac-4806-ab70-dcb68629f57e",
+          "clearance|167688052|101935147|21906f53-7619-4744-b627-3f44921bb744|4f666c79-a7d9-4b08-9ab7-d45cce322a9e",
+          ""
+        ],
+        [
+          "clearance|167688052|102195147|4f666c79-a7d9-4b08-9ab7-d45cce322a9e|ea06dc42-ba6c-4c0d-aaff-bf6da66dd0c6",
+          ""
+        ],
+        [
+          "clearance|170818052|101935147|21906f53-7619-4744-b627-3f44921bb744|539d78f8-c309-4fd3-a8fe-0882754e865d",
+          ""
+        ],
+        [
+          "clearance|171057920|101781898|21906f53-7619-4744-b627-3f44921bb744|93f4c60b-b516-4a1c-8c24-4ca896234abd",
+          ""
+        ],
+        [
+          "clearance|171488052|102455147|93f4c60b-b516-4a1c-8c24-4ca896234abd|ea465c28-fd57-40fb-bc91-c8c517df1b8e",
+          ""
+        ],
+        [
+          "clearance|171758052|102455147|93f4c60b-b516-4a1c-8c24-4ca896234abd|e6da2c21-22ac-4806-ab70-dcb68629f57e",
+          ""
+        ],
+        [
+          "clearance|171758052|102985147|f5c64fdd-b402-4c06-8834-304ce70954f9|e6da2c21-22ac-4806-ab70-dcb68629f57e",
           ""
         ],
         [
@@ -201,6 +237,14 @@
         ],
         [
           "courtyards_overlap|163043052|102740147|64b84193-5ea8-4f1b-bf42-d563a54274bf|cb742859-6c9a-4dba-9777-6c6757182917",
+          ""
+        ],
+        [
+          "courtyards_overlap|163193052|98705147|7123937c-8eb9-4056-99cf-0c7a59558369|abeb7d56-2bb2-4908-b978-f322d0669b40",
+          ""
+        ],
+        [
+          "courtyards_overlap|163478052|100930147|abeb7d56-2bb2-4908-b978-f322d0669b40|f1363a77-3503-4e62-ac1f-9121a98cfa36",
           ""
         ],
         [
@@ -232,7 +276,47 @@
           ""
         ],
         [
-          "shorting_items|177938052|120644878|66354d26-b344-49c1-b744-6b0912166813|f12190ff-281b-43e2-a1a4-e1e70f4b4afa",
+          "courtyards_overlap|167243052|102170000|72bfd195-d55c-4a76-9287-1accb7bed767|ab689d03-07d4-438a-bd69-6888bcbfeeef",
+          ""
+        ],
+        [
+          "lib_footprint_issues|165138052|99055000|abeb7d56-2bb2-4908-b978-f322d0669b40|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|162046052|79937097|7889eeb0-62e1-4efc-a298-b64b690142f8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|174318052|111551012|c00dc567-2fcc-4db4-8155-7c112b3c5da4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "shorting_items|171488052|102455147|26561b56-f467-4808-80e8-10c25f5f98b9|93f4c60b-b516-4a1c-8c24-4ca896234abd",
+          ""
+        ],
+        [
+          "shorting_items|171758052|102725147|93f4c60b-b516-4a1c-8c24-4ca896234abd|f5c64fdd-b402-4c06-8834-304ce70954f9",
+          ""
+        ],
+        [
+          "shorting_items|177148052|120609878|66354d26-b344-49c1-b744-6b0912166813|73a1a2d9-efeb-4bba-a90c-56f985c0d8f8",
+          ""
+        ],
+        [
+          "solder_mask_bridge|171758052|102725147|93f4c60b-b516-4a1c-8c24-4ca896234abd|f5c64fdd-b402-4c06-8834-304ce70954f9",
+          ""
+        ],
+        [
+          "unconnected_items|157218052|111285147|F.Cu|4|a429a62d-1ff6-41e1-8291-268bdf331b9d|24e0f9a3-dedc-4273-96c7-cb07ba1536e6",
+          ""
+        ],
+        [
+          "unconnected_items|157228052|113275147|F.Cu|4|91fca1a3-4c67-4b9c-9811-ea73ce93545a|d95c3531-e166-40db-83b2-142609d9ce1d",
+          ""
+        ],
+        [
+          "unconnected_items|159299054|99806401|F.Cu|4|954fbf79-9930-4e3a-ac61-e80ebb8135fc|cabdb842-4854-4a40-bf29-89a820dc92e5",
           ""
         ]
       ],
@@ -285,7 +369,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
