@@ -1,30 +1,52 @@
-"Reference","Qty","Value","MPN","Price","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"AE1","1","Antenna","","","","","","","~"
-"C1,C6","2","2.2uF","GRM033D80E225ME47D","1.10","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C2","1","10uF","KGM05CS60J106MH","3.19","","","","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","~"
-"C3","1","10nF","GRM033R70J103JA01D","0.998","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C4,C8,C9,C10","4","100nF","KGM03AR70J104KH","3.6","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C5","1","2.2nF","GRM033R71A222KA01D","0.998","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C7","1","3.9pF","GCQ0335C1H3R9CB01D","1.19","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C11","1","1.5pF","GJM0335C1E1R5WB01J","0.998","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C12","1","2.0pF","GJM0335C1E2R0WB01D","1.19","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C13","1","0.3pF","GCQ0335C1HR30BB01D","1.19","","","","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"C14,C16,C17","3","10uF","","","","","","","~"
-"C15","1","2.2uF","","","","","","","~"
-"C18","1","0.1uF","","","","","","","~"
-"C19,C20","2","220pF","","","","","","","~"
-"FB1","1","120","","","","","","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"FB2,FB3","2","FerriteBead_Small","","","","","","","~"
-"J2","1","Conn_01x03","","","","","","","~"
-"L1","1","4.7uH","LQM18PN4R7MFRL","1.69","","","","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"L2","1","2.7nH","LQP03HQ2N7B02D","1.19","","","","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"L3,L4","2","3.5nH","LQP03HQ3N5B02D","1.19","","","","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
-"L5,L6","2","2.2uH","","","","","","","~"
-"LS1","1","AS07104PO-R","","","","","","","~"
-"NT1,NT2","2","Net Tie","","","","Excluded from BOM","","","~"
-"R1","1","1M","","","","","","","~"
-"R2","1","1k","RCA02011K00FNEDSR","0.998","","","","","~"
-"U1","1","nRF54L15-QFAA","NRF54L15-QFAA-R7","23.08","","","","Ekse:QFN48_6X6_NOR",""
-"U2","1","NPM1300-QEAA-R7","","","","","","Ekse:QFN32_5X5_NOR","https://docs.nordicsemi.com/bundle/nwp_050/page/WP/nwp_050/intro.html"
-"U3","1","MAX98357A","","","","","","Ekse:TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm","https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf"
-"X1","1","32MHz","CX2016DB32000D0WZRC1","6.59","","","","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm","~"
+Reference,Kommentar,Qty,Value,MPN, Price per component , Price total ,Component size,Exclude from BOM,Footprint,Datasheet
+AE1,,1,Antenna,,, kr -   ,,Excluded from BOM,Ekse:PCB_Antenna,~
+"C1,C6",,2,2.2uF,GRM033D80E225ME47D, kr 1.10 , kr 2.20 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C2,,1,10uF,KGM05CS60J106MH, kr 3.19 , kr 3.19 ,0402,,Capacitor_SMD:C_0402_1005Metric,~
+C3,,1,10nF,GRM033R70J103JA01D, kr 1.00 , kr 1.00 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+"C4,C8,C9,C10",,4,100nF,KGM03AR70J104KH, kr 3.60 , kr 14.40 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C5,,1,2.2nF,GRM033R71A222KA01D, kr 1.00 , kr 1.00 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C7,,1,3.9pF,GCQ0335C1H3R9CB01D, kr 1.19 , kr 1.19 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C11,,1,1.5pF,GJM0335C1E1R5WB01J, kr 1.00 , kr 1.00 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C12,,1,2.0pF,GJM0335C1E2R0WB01D, kr 1.19 , kr 1.19 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+C13,,1,0.3pF,GCQ0335C1HR30BB01D, kr 1.19 , kr 1.19 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+"C14,C16,C17,C23,C24,C25",,6,10uF,KGM15CR51E106KT, kr 5.09 , kr 30.54 ,0603,,Capacitor_SMD:C_0603_1608Metric,~
+C15,,1,2.2uF,GRM188Z71C225KE43D, kr 1.60 , kr 1.60 ,0603,,Capacitor_SMD:C_0603_1608Metric,~
+"C18,C21,C22",,3,0.1uF,KGM03BR51E104KH, kr 1.39 , kr 4.17 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+"C19,C20",,2,220pF,C0603C221J5RACTM, kr 1.30 , kr 2.60 ,0603,,Capacitor_SMD:C_0603_1608Metric,~
+C26,,1,1.4pF,GCQ0335C1H1R4WB01D, kr 1.80 , kr 1.80 ,0201,,Capacitor_SMD:C_0201_0603Metric,~
+D1,,1,LED_RGBA,APGF1012GBRC-07, kr 11.37 , kr 11.37 ,1012,,Ekse:APGF1012GBRC07,~
+FB1,,1,120,MMZ0603Y121CT000, kr 1.30 , kr 1.30 ,0201,,Inductor_SMD:L_0201_0603Metric,~
+"FB2,FB3",,2,1000,BLM21SP102SN1D, kr 2.99 , kr 5.98 ,0805,,Capacitor_SMD:C_0805_2012Metric,~
+J1,,1,Conn_02x05_Odd_Even,FTSH-105-01-F-DV-K-P, kr 21.00 , kr 21.00 ,105,,Ekse:FTSH-105-XX-YYY-DV-K-P-TR,~
+J2,,1,Conn_02x03_Counter_Clockwise,,, kr -   ,P2.54mm,Excluded from BOM,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,~
+L1,,1,4.7uH,LQM18PN4R7MFRL, kr 1.69 , kr 1.69 ,0603,,Inductor_SMD:L_0603_1608Metric,~
+L2,,1,2.7nH,LQP03HQ2N7B02D, kr 1.19 , kr 1.19 ,0201,,Inductor_SMD:L_0201_0603Metric,~
+"L3,L4",,2,3.5nH,LQP03HQ3N5B02D, kr 1.19 , kr 2.38 ,0201,,Inductor_SMD:L_0201_0603Metric,~
+"L5,L6",,2,2.2uH,MLP2016V2R2MT0S1, kr 2.19 , kr 4.38 ,2016,,Ekse:INDC2016X100N,~
+LS1,,1,AS07104PO-R,AS07104PO-R, kr 47.21 , kr 47.21 ,02,,Ekse:VN02A1500000G,~
+R1,,1,634k,CRCW0603634KDHTAP, kr 3.89 , kr 3.89 ,0603,,Resistor_SMD:R_0603_1608Metric,~
+R2,,1,1k,RCA02011K00FNEDSR, kr 1.00 , kr 1.00 ,0201,,Resistor_SMD:R_0201_0603Metric,~
+"R3,R4",,2,10k,CRCW040210K0FHEDP, kr 3.19 , kr 6.38 ,0402,,Resistor_SMD:R_0402_1005Metric,~
+"R5,R6",,2,150k,CRCW0201150KFKED, kr 2.10 , kr 4.20 ,0201,,Resistor_SMD:R_0201_0603Metric,~
+U1,,1,nRF54L15-QFAA,NRF54L15-QFAA-R7, kr 23.08 , kr 23.08 ,6x6mm P0.4mm,,Ekse:QFN-48_EP_6x6_Pitch0.4mm,
+U2,,1,NPM1300-QEAA-R7,NPM1300-QEAA-R7, kr 15.31 , kr 15.31 ,5x5mm P0.5mm,,Ekse:QFN-32_EP_5x5_Pitch0.5mm,https://docs.nordicsemi.com/bundle/nwp_050/page/WP/nwp_050/intro.html
+U3,,1,MAX98357A,MAX98357AETE+T, kr 51.62 , kr 51.62 ,3x3mm P0.5mm,,Ekse:TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf
+U4,,1,12BHC186P1-GR,12BHC186P1-GR, kr 38.28 , kr 38.28 ,12,,Ekse:12BHC186P1GR,https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf
+X1,,1,32MHz,CX2016DB32000D0WZRC1, kr 6.59 , kr 6.59 ,2016,,Ekse:CX2016DB32000D0WZRC1,~
+X2,,1,32.768 kHz,CM8V-T1A-32.768kHz-9pF-20PPM-TB-QC, kr 6.59 , kr 6.59 ,2012-2Pin,,Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm,~
+"H1,H2,H3,H4",,4,MountingHole,,, kr -   ,3.2mm,Excluded from BOM,MountingHole:MountingHole_3.2mm_M3,~
+TP1,,1,VDD_nRF,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP3,,1,DECA,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP4,,1,SWDIO,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP5,,1,SWDCLK,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP6,,1,~{RESET},,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP8,,1,VSYS,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP9,,1,GND,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP10,,1,VDD_AUDIO,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP11,,1,SDA,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP12,,1,SCL,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP13,,1,BCLK,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP14,,1,DOUT,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+TP15,,1,LRCLK,,, kr -   ,Pad,Excluded from BOM,TestPoint:TestPoint_Pad_D1.0mm,~
+,,,,Total price per PCB, kr 267.41 , kr 320.50 ,,,,
+,,,,Bestilling av 5+ deler vil gi mindre per stk pris,,,,,,
